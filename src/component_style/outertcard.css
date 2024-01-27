@@ -1,0 +1,23 @@
+.outercard{
+    display:flex;
+    flex-direction: column;
+    height:max-content;
+
+ padding-bottom: 0px;
+   width:50vw;
+}
+
+.card{
+    width:100%;
+    border:1px solid black;
+    margin-bottom:3vh;
+}
+@media only screen and (max-width:600px){
+    .outercard{
+        display:flex;
+        flex-direction: column;
+        height:max-content;
+     padding-bottom: 0px;
+       width:99vw;
+    }
+}

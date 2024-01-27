@@ -1,0 +1,23 @@
+
+.home{
+   
+    width:100vw;
+}
+.Outercard{
+    margin-top: 5vh;
+   margin-left: 25vw;
+   margin-right: 25vw;
+    
+}
+@media only screen and (max-width:600px){
+    .Outercard{
+        margin-top: 5vh;
+        margin-left: 0vw;
+       margin-right: 0vw;
+
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+}
+

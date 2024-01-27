@@ -1,0 +1,65 @@
+
+
+/* .nav{
+    
+    box-shadow: 2px 2px 5px grey;
+    background-color: rgb(175, 168, 160);
+} */
+.nav:hover{
+    box-shadow: 2px 2px 15px grey; 
+    transform: translateY(-3px);
+}
+.nav-link:hover{
+    color:white;
+}
+.nav {
+    /* background-image: linear-gradient(45deg,rgb(198, 194, 194),rgb(141, 202, 238));
+    background-color: #333; */
+    box-shadow: 2px 2px 5px grey;
+    background-color: white;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+ /* Distribute space between items */
+}
+li {
+    text-align: center; /* Center align the text */
+}
+.right {
+ 
+ margin-left: 85vw;
+}
+
+.center{
+    background-image: linear-gradient(180deg,rgb(230, 230, 227),rgb(143, 197, 241));
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+
+h4{
+    background: linear-gradient(45deg, #e9e1e1, #2c2c2d);
+	-webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width:600px){
+    nav{
+        width:99vw;
+    }
+    .right {
+         position: absolute;
+         right:0.5vw;
+        margin-left: 40vw;
+       }
+       .miui{
+        font-size: large;
+       }
+    
+    
+}
