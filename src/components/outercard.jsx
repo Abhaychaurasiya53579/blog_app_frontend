@@ -9,21 +9,22 @@ const Outertcard = () => {
 const [posts,setposts]=useState([]);
 
 useEffect(()=>{
-const fetchdata=async()=>{
+const fetchdata=async(e)=>{
   const res = await fetch("https://blog-abh-back.onrender.com/api/blog/find",{
     method:"GET",
     headers:{
       token:localStorage.getItem("token")
     }
   })
+ 
   const data = await res.json();
-  if(data.msg==="unauthorized"){
-    alert("jaa na")
+  if(data.msg =="unauthorized"){
+    alert("abhay")
     navigator("/login");
+    return;
   }
   if(res.ok){
-    setposts(data);
-    
+    setposts(data); 
   }
  
 }
