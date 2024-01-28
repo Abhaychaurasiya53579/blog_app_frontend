@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/blog_app_frontend/static/css/main.d9bb277b.css",
-    "main.js": "/github.io/blog_app_frontend/static/js/main.f25ff8fb.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/github.io/blog_app_frontend/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/github.io/blog_app_frontend/index.html",
-    "main.d9bb277b.css.map": "/github.io/blog_app_frontend/static/css/main.d9bb277b.css.map",
-    "main.f25ff8fb.js.map": "/github.io/blog_app_frontend/static/js/main.f25ff8fb.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/github.io/blog_app_frontend/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/blog_app_frontend/static/css/main.d9bb277b.css",
+    "main.js": "/blog_app_frontend/static/js/main.daee3d45.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/blog_app_frontend/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/blog_app_frontend/index.html",
+    "main.d9bb277b.css.map": "/blog_app_frontend/static/css/main.d9bb277b.css.map",
+    "main.daee3d45.js.map": "/blog_app_frontend/static/js/main.daee3d45.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/blog_app_frontend/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9bb277b.css",
-    "static/js/main.f25ff8fb.js"
+    "static/js/main.daee3d45.js"
   ]
 }
